@@ -37,10 +37,14 @@ angular
       .state('projects', {
         url: '/projects',
         templateUrl: 'views/projects.html',
+        controller: 'ProjectsCtrl',
+        controllerAs: 'projects'
       })
       .state('project', {
         url: '/project/:id',
        templateUrl: 'views/project.html',
+       controller: 'ProjectCtrl',
+       controllerAs: 'project'
       });
      
   })
