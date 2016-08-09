@@ -28,6 +28,12 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+       .state('main', {
+        url: '/mainTwo',
+        templateUrl: 'views/mainTwo.html',
+        controller: 'MainTwoCtrl',
+        controllerAs: 'mainTwo'
+      })
       .state('about', {
         url:'/about',
         templateUrl: 'views/about.html',
