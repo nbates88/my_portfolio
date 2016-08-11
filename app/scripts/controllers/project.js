@@ -15,7 +15,7 @@ angular.module('myNewProjectApp')
   	} else if(appId === "2"){
   		$scope.title = "Synethsize";
   		$scope.description = "A Buzzfeed-esque guessing game incorporating the user's Spotify playlists; built in 3 days as part of Grace Hopper Academy program.";
-  		$scope.demo = "http://www.gracehopper.com/student-projects/synethsize";
+  		$scope.demos = "https://www.gracehopper.com/student-projects/synethsize";
   		$scope.github = "https://github.com/nbates88/capstone";
   		$scope.imageOne = "../../images/Synethsize3.png";
   		$scope.imageTwo = "../../images/Synethsize1.png";
@@ -24,7 +24,7 @@ angular.module('myNewProjectApp')
   		$scope.title = "Grasshopper";
   		$scope.description ="An npm module/dashboard allowing developers to collect bug reports from end users and manage the bug-fixing process. Built in 2.5 weeks as part of Grace Hopper Academy.";
   		$scope.github = "https://github.com/nbates88/synethsize";
-  		$scope.demo = "youtube.com/watch?v=p-y-Miuu7Cs&feature=youtu.be";
+  		$scope.demos = "https://youtube.com/watch?v=p-y-Miuu7Cs&feature=youtu.be";
   		$scope.imageOne = "../../images/Grasshopper1.png";
   		$scope.imageTwo = "../../images/Grasshopper2.png";
   		$scope.imageThree = "../../images/Grasshopper3.png";
