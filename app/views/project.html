@@ -7,14 +7,20 @@
     			</h2>
             </div>
             <div class="app-description">
-                {{description}}
+                <b>Description:</b> {{description}}
             </div>
-             <ul class="app-links">
-                <li ng-hide="!github"><a ng-href="{{github}}">Github Repo</a>
-                <li ng-hide="!demos"><a ng-href="{{demos}}">Demo Video</a>
-                <li ng-hide="!deployed"><a ng-href="{{deployed}}">Deployed Site</a>
-                
-            </ul>
+            <div class="app-description">
+            <b>Technologies Used:</b>
+            {{technologies}}
+            </div>
+            <div class="app-description">
+             <b>Links:</b>
+                 <ul class="app-links">
+                    <li ng-hide="!github"><a ng-href="{{github}}">Github Repo</a>
+                    <li ng-hide="!demos"><a ng-href="{{demos}}">Demo Video</a>
+                    <li ng-hide="!deployed"><a ng-href="{{deployed}}">Deployed Site</a>   
+                </ul>
+            </div>      
         </div>
         <div class="screenshots">
         <ul class="image">

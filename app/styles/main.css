@@ -9,6 +9,7 @@ body {
   padding: 0;
 }
 
+
 a {
     color: #000000;
 }
@@ -17,15 +18,24 @@ img{
     image-orientation: from-image;
 }
 
-.image
-{
+.app-description{
+  margin-bottom: 10px;
+}
+.image {
 list-style-type: none;
 }
 
-.myPic{
+.home-page{
     background-color: #f9eddd
 }
 
+.details{
+  text-align: left;
+  margin-top: 20px;
+}
+.bottom{
+  margin-top: 10px;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -76,6 +86,7 @@ list-style-type: none;
     -webkit-flex-wrap: wrap;
     flex-direction: row;
     min-height: 100%;
+    font-size: 15px;
 }
 
 .flex-container .description{
