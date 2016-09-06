@@ -51,7 +51,7 @@ angular
        templateUrl: 'views/project.html',
        controller: 'ProjectCtrl',
        controllerAs: 'project'
-      });
+      })
      
-  })
+  });
 

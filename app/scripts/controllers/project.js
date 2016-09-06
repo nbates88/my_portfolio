@@ -18,7 +18,7 @@ angular.module('myNewProjectApp')
   		$scope.description = "A Buzzfeed-esque guessing game incorporating the user's Spotify playlists; built in 3 days as part of Grace Hopper Academy program.";
   		$scope.technologies = "Spotify Web API | Angular-Spotify Module | Material Design for Bootstrap | Express | Angular | CSS3 | Node";
       $scope.demos = "https://www.gracehopper.com/student-projects/synethsize";
-  		$scope.github = "https://github.com/nbates88/capstone";
+  		$scope.github = "https://github.com/nbates88/synethsize";
   		$scope.imageOne = "../../images/Synethsize3.png";
   		$scope.imageTwo = "../../images/Synethsize1.png";
   		$scope.imageThree = "../../images/Synethsize2.png";
@@ -26,11 +26,19 @@ angular.module('myNewProjectApp')
   		$scope.title = "Grasshopper";
   		$scope.description ="An npm module/dashboard allowing developers to collect bug reports from end users and manage the bug-fixing process. Built in 2.5 weeks as part of Grace Hopper Academy.";
   		$scope.technologies ="Express | Angular | Node | SCSS | Sequelize | HTML2Canvas | Highcharts | Material Design for Bootstrap";
-      $scope.github = "https://github.com/nbates88/synethsize";
+      $scope.github = "https://github.com/nbates88/capstone";
   		$scope.demos = "https://youtube.com/watch?v=p-y-Miuu7Cs&feature=youtu.be";
   		$scope.imageOne = "../../images/Grasshopper1.png";
   		$scope.imageTwo = "../../images/Grasshopper2.png";
   		$scope.imageThree = "../../images/Grasshopper3.png";
-  	}
+  	} else if(appId === "4"){
+      $scope.title = "Memory Game";
+      $scope.description ="A simple implementation of the classic game.";
+      $scope.technologies ="Angular | CSS3 | HTML5 | Javascript | jQuery;";
+      $scope.github = "https://github.com/nbates88/memoryGameTwo";
+      $scope.imageOne = "../../images/MemoryGame1.png";
+      $scope.imageTwo = "../../images/memoryGame2.png";
+      $scope.imageThree = "../../images/MemoryGame3.png";
+    }
 
   });
