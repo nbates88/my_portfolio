@@ -39,6 +39,26 @@ angular.module('myNewProjectApp')
       $scope.imageOne = "../../images/MemoryGame1.png";
       $scope.imageTwo = "../../images/memoryGame2.png";
       $scope.imageThree = "../../images/MemoryGame3.png";
+    } else if(appId === "5"){
+      $scope.title = "Honeycomb";
+      $scope.description ="An Instagram-based e-commerce taggable image gallery builder app for Shopify stores";
+      $scope.technologies ="JS | jQuery | C# | Razor | Azure";
+      $scope.imageOne = "../../images/HC1.png";
+      $scope.imageTwo = "../../images/HC2.png";
+      $scope.imageThree = "../../images/HC3.png";
+      $scope.imageFour = "../../images/HC4.png";
+      $scope.demos = "https://vimeo.com/240416788";
+    }
+    else if(appId === "6"){
+      $scope.title = "Annote-A-Song";
+      $scope.description ="A Spotify feature that allows users to annote songs with comments and then playback songs to see all users' comments";
+      $scope.technologies ="JS | TS | Angular2 | Node | Express | MongoDB | Mongoose | RxJS";
+      $scope.github = "https://github.com/nbates88/song-tagger-app";
+      $scope.imageOne = "../../images/AS3.png";
+      $scope.imageTwo = "../../images/AS2.png";
+      $scope.imageThree = "../../images/AS4.png";
+      $scope.imageFour = "../../images/AS1.png";
+      $scope.demos = "https://vimeo.com/240382366";
     }
 
   });
