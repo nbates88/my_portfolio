@@ -42,7 +42,7 @@ angular.module('myNewProjectApp')
     } else if(appId === "5"){
       $scope.title = "Honeycomb";
       $scope.description ="An Instagram-based e-commerce taggable image gallery builder app for Shopify stores";
-      $scope.technologies ="JS | jQuery | C# | Razor | Azure";
+      $scope.technologies ="JS | jQuery | C# | .NET | Razor | Azure";
       $scope.imageOne = "../../images/HC1.png";
       $scope.imageTwo = "../../images/HC2.png";
       $scope.imageThree = "../../images/HC3.png";
